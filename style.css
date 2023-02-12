@@ -1,0 +1,850 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.navbarbg {
+    background-color: #1D5EDE;
+    height: 80px;
+    border-bottom: 2px solid #5387EB;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.sidebarbg {
+    background-color: #1D5EDE;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    color: #bbcff6;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+   
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link.active {
+    color: #ffffff;
+}
+  
+.offcanvas .offcanvas-body .navbar-nav .registerbtn {
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .registerbtn:hover {
+    color: #1D5EDE;
+    background-color: #ffffff;
+}
+
+.herosection {
+    height: 60vh;
+    padding-top: 80px;
+    background-color: #1D5EDE;
+}
+
+.herosection .dotsimg {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5%;
+    left: 0;
+    translate: -50%;
+    height: 200px;
+    width: 200px;
+}
+
+.herosection .dotsimg2 {
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    translate: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.herosection .herocontainer {
+    text-align: center;
+    background-image: url(./images/herobg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 20px 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.herosection .herocontainer .heroheading {
+    font-family: 'Manrope', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+    
+.herosection .herocontainer .herodescription {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #bbcff6;
+}
+
+.herosection .herocontainer .herobtn {
+    background-color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: #5387EB;
+    text-align: center;
+    height: 60px;
+    width: 180px;
+    transition: all 0.5s ease;
+}
+
+.herosection .herocontainer .herobtn:hover {
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+.herosection .herocontainer .herobtn:active {
+    transform: scale(0.9);
+    transition: 0.3s all ease;
+}
+
+.navbar .navbar-toggler{
+    border: none;
+    color: transparent;
+}
+
+.navbar-toggler span i{
+    font-size: 30px;
+}
+
+.servicesection{
+    background-color: #fcfcfc;
+}
+
+.servicesection .servicesheading {
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 40px;
+}
+
+.servicesection .servicesdescription {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #7F7E84;
+    margin-bottom: 40px;
+}
+
+.servicesection .card {
+    border: none;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.servicesection .card .card-body{
+    padding: 20px 20px;
+    border-top: solid #FFB645 20px;
+}
+
+.servicesection .card .card-body .card-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 20px;
+}
+
+.servicesection .card .card-body .card-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7F7E84;
+}
+    
+.features-section .featuresheading{
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.features-section .featuresdescription{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #7F7E84;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.features-section .featureimg{
+    height: 500px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.features-section .featureslabel{
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFB645;
+    margin-bottom: 20px;
+}
+   
+.features-section .featuresubheading{
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 20px;
+}
+
+.features-section .featuresubdescription{
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7F7E84;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.features-section .featureslink{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5387EB;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.features-section .featureslink i{
+    transition: all 0.5s ease;
+}
+
+
+.features-section .featureslink:hover i{
+    transform: translateX(8px);
+    transition: all 0.5s ease;
+}
+
+.prices-section .pricesheading{
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.prices-section .pricesdescription{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #7F7E84;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.pricecardteam .card-header{
+    background-color: #084DCE;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+}
+
+.pricecardteam .card-body{
+    background-color: #1D5EDE;
+    font-family: 'Manrope', sans-serif;
+    padding: 20px;
+}
+
+.pricecardteam .card-body hr{
+    border: 1px solid #bbcff6;
+    margin: 20px 0px;
+}
+
+.pricecardteam .card-body .pricelabel{
+    font-size: 16px;
+    font-weight: 400;
+    color: #bbcff6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricecardteam .card-body .card-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricecardteam .card-body .pricefeatures{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.pricecardteam .card-body .pricefeatures i{
+    --fa-primary-color: #ffffff;
+    --fa-secondary-color: #18CF4B;
+    --fa-secondary-opacity: 1.0;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.pricecardteam .card-body .pricefeatures.disable{
+    color: #bbcff6;
+}
+
+.pricecardteam .card-body .pricefeatures.disable i{
+    --fa-primary-color: #7F7E84;
+    --fa-secondary-color: #EBEBEB;
+    --fa-secondary-opacity: 1.0;
+}  
+
+.pricecardteam .card-body .btn{
+    background-color: #ffffff;
+    border: none;
+    color: #084DCE;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+.pricecardteam .card-body .btn:hover{
+    background-color: #084DCE;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+/* other price  */
+
+.prices-section .card{
+    border: none;
+}
+
+.pricecard{
+    background-color: #ffffff;
+    border: none;
+}
+  
+
+.pricecard .card-body{
+    background-color: #fcfcfc;
+    font-family: 'Manrope', sans-serif;
+    padding: 20px;
+    
+}
+
+.pricecard .card-body hr{
+    border: 1px solid #7F7E84;
+    margin: 20px 0px;
+}
+
+.pricecard .card-body .pricelabel{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7F7E84;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricecard .card-body .card-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricecard .card-body .pricefeatures{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0D052F;
+    margin-bottom: 20px;
+}
+
+.pricecard .card-body .pricefeatures i{
+    --fa-primary-color: #ffffff;
+    --fa-secondary-color: #18CF4B;
+    --fa-secondary-opacity: 1.0;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.pricecard .card-body .pricefeatures.disable{
+    color: #7F7E84;
+}
+
+.pricecard .card-body .pricefeatures.disable i{
+    --fa-primary-color: #7F7E84;
+    --fa-secondary-color: #EBEBEB;
+    --fa-secondary-opacity: 1.0;
+}  
+
+.pricecard .card-body .btn{
+    background-color: #F5F6F3;
+    border: none;
+    color: #0D052F;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+.pricecard .card-body .btn:hover{
+    background-color: #0D052F;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.reviewsection .reviewsheading{
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reviewsection .reviewsdescription{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7F7E84;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reviewsection .reviewcard{
+    border: none;
+    background-color: #fcfcfc;
+    padding: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.reviewsection .reviewcard .reviewimg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.reviewsection .reviewcard .reviewname{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D052F;
+    margin-bottom: 8px;
+}
+
+.reviewsection .reviewcard .reviewjob{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7F7E84;
+    margin-bottom: 8px;
+}
+
+.reviewsection .reviewcard .reviewdescription{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D052F;
+    margin-bottom: 8px;
+}
+
+.herosection2 .herocontainer2 {
+    text-align: center;
+    background: #F5F6F3;
+    height: 100%;
+    width: 100%;
+}
+
+.herosection2 .herocontainer2 .heroheading2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    color: #10053A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.herosection2 .herocontainer2 .herodescription2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #7F7E84;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.herosection2 .herocontainer2 .btn{
+    background-color: #1D5EDE;
+    border: none;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+.herosection2 .herocontainer2 .btn:hover{
+    background-color: #0D052F;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.footersection .footercontainer .footerheading{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #10053A;
+    margin-bottom: 20px;
+}
+
+.footersection .footercontainer .footerdescription{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7F7E84;
+    margin-bottom: 20px;
+}
+
+.footersection .footercontainer .footeroptions{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7F7E84;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.footersection .footercontainer .footeroptions:hover{
+    color: #1D5EDE;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.footersection .footercontainer .footerdescription2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7F7E84;
+    margin-bottom: 20px;
+}
+    
+
+/* Media Queries  */
+
+@media screen and (max-width: 768px) {
+    .herosection .herocontainer .heroheading {
+        font-size: 65px;
+    }
+
+    .herosection .herocontainer .herodescription {
+        font-size: 20px;
+    }
+
+    .herosection .dotsimg {
+        height: 150px;
+        width: 150px;
+    }
+
+    .herosection .dotsimg2 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .servicesection .servicesheading {
+        font-size: 40px;
+    }
+
+    .servicesection .servicesdescription {
+        font-size: 25px;
+    }
+       
+    .features-section .featuresheading{
+        font-size: 40px;
+    }
+
+    .features-section .featuresdescription{
+        font-size: 20px;
+    }
+
+    .features-section .featureimg{
+        height: 500px;
+        width: 600px;
+    }
+
+    .features-section .featureslabel{
+        font-size: 18px;
+    }
+
+    .features-section .featuresubheading{
+        font-size: 40px;
+    }
+
+    .features-section .featuresubdescription{
+        font-size: 18px;
+    }
+
+    .prices-section .pricesheading{
+        font-size: 40px;
+    }
+
+    .prices-section .pricesdescription{
+        font-size: 20px;
+    }
+
+    .herosection2 .herocontainer2 .heroheading2 {
+        font-size: 65px;
+    }
+
+    .herosection2 .herocontainer2 .herodescription2 {
+        font-size: 20px;
+    }
+
+}
+    
+@media screen and (max-width: 576px) {
+    .herosection .herocontainer .heroheading {
+        font-size: 50px;
+    }
+
+    .herosection .herocontainer .herodescription {
+        font-size: 16px;
+    }
+
+    .herosection .dotsimg {
+        height: 100px;
+        width: 100px;
+    }
+
+    .herosection .dotsimg2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .servicesection .servicesheading {
+        font-size: 35px;
+    }
+
+    .servicesection .servicesdescription {
+        font-size: 20px;
+    }
+
+    .features-section .featuresheading{
+        font-size: 35px;
+    }
+
+    .features-section .featuresdescription{
+        font-size: 16px;
+    }
+
+    .features-section .featureimg{
+        height: 300px;
+        width: 400px;
+    }
+
+    .features-section .featureslabel{
+        font-size: 16px;
+    }
+
+    .features-section .featuresubheading{
+        font-size: 35px;
+    }
+
+    .features-section .featuresubdescription{
+        font-size: 16px;
+    }
+
+    .prices-section .pricesheading{
+        font-size: 35px;
+    }
+
+    .prices-section .pricesdescription{
+        font-size: 16px;
+    }
+
+    .herosection2 .herocontainer2 .heroheading2 {
+        font-size: 50px;
+    }
+
+    .herosection2 .herocontainer2 .herodescription2 {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .herosection .herocontainer .heroheading {
+        font-size: 45px;
+    }
+
+    .herosection .herocontainer .herodescription {
+        font-size: 16px;
+    }
+
+    .servicesection .servicesheading {
+        font-size: 35px;
+    }
+
+    .servicesection .servicesdescription {
+        font-size: 20px;
+    }
+
+    .features-section .featuresheading{
+        font-size: 35px;
+    }
+
+    .features-section .featuresdescription{
+        font-size: 16px;
+    }
+
+    .features-section .featureimg{
+        height: 300px;
+        width: 400px;
+    }
+
+    .features-section .featureslabel{
+        font-size: 16px;
+    }
+
+    .features-section .featuresubheading{
+        font-size: 35px;
+    }
+
+    .features-section .featuresubdescription{
+        font-size: 16px;
+    }
+
+    .prices-section .pricesheading{
+        font-size: 35px;
+    }
+
+    .prices-section .pricesdescription{
+        font-size: 16px;
+    }
+
+    .herosection2 .herocontainer2 .heroheading2 {
+        font-size: 45px;
+    }
+
+    .herosection2 .herocontainer2 .herodescription2 {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .herosection .herocontainer .heroheading {
+        font-size: 35px;
+    }
+
+    .herosection .herocontainer .herodescription {
+        font-size: 14px;
+    }
+
+    .herosection .herocontainer .herobtn {
+        font-size: 15px;
+        height: 50px;
+        width: 150px;
+        padding: 15px;
+    }
+
+    .servicesection .servicesheading {
+        font-size: 30px;
+    }
+
+    .servicesection .servicesdescription {
+        font-size: 15px;
+    }
+
+    .features-section .featuresheading{
+        font-size: 30px;
+    }
+
+    .features-section .featuresdescription{
+        font-size: 14px;
+    }
+
+    .features-section .featureimg{
+        height: 300px;
+        width: 400px;
+    }
+
+    .features-section .featureslabel{
+        font-size: 14px;
+    }
+
+    .features-section .featuresubheading{
+        font-size: 30px;
+    }
+
+    .features-section .featuresubdescription{
+        font-size: 14px;
+    }
+
+    .prices-section .pricesheading{
+        font-size: 30px;
+    }
+
+    .prices-section .pricesdescription{
+        font-size: 14px;
+    }
+
+    .herosection2 .herocontainer2 .heroheading2 {
+        font-size: 35px;
+    }
+
+    .herosection2 .herocontainer2 .herodescription2 {
+        font-size: 14px;
+    }
+}
