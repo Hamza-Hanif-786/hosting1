@@ -55,9 +55,9 @@
 }
 
 .herosection {
-    height: 60vh;
     padding-top: 80px;
     background-color: #1D5EDE;
+    padding-bottom: 80px;
 }
 
 .herosection .box1{
